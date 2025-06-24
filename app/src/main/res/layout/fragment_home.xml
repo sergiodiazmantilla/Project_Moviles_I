@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context=".view.fragments.HomeFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/actionbar_toolbar"/>
+
+        <ImageView
+            android:id="@+id/bannerImage"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/banner_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pbbanner" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Contenedor general en un ScrollView para desplazamiento -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:padding="16dp">
+        <LinearLayout
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Sección de Misión -->
+            <TextView
+                android:id="@+id/missionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Misión"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/missionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/text_mision"
+                android:textSize="16sp" />
+
+            <!-- Sección de Visión -->
+            <TextView
+                android:id="@+id/visionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Visión"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/visionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/text_vision"
+                android:textSize="16sp" />
+
+            <!-- Sección de Contacto -->
+            <TextView
+                android:id="@+id/contactTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Contacto"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/contactText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="@string/text_contacto"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/colorAccent"
+        app:srcCompat="@drawable/cerrarsesion" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

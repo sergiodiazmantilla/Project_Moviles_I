@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_horizontal_login">32dp</dimen>
+    <dimen name="textSize_dont_have_account">16sp</dimen>
+    <dimen name="activity_vertical_margin">32dp</dimen>
+    <dimen name="editText_margin_create_Account">10dp</dimen>
+    <dimen name="height_cardview">200dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="textsize_username_card">25sp</dimen>
+    <dimen name="firstword_textsize_card">15sp</dimen>
+    <dimen name="timecard_marginLeft_card">5dp</dimen>
+    <dimen name="like_margintop_margin_card">10dp</dimen>
+    <dimen name="bottombar_height">70dp</dimen>
+</resources>

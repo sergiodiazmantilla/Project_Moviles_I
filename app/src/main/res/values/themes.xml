@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.T1Evaluacion" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="Theme.T1Evaluacion" parent="Base.Theme.T1Evaluacion" />
+
+
+    <style name="RaisedButtonDark" parent="Theme.AppCompat.Light">
+
+        <item name="android:backgroundTint"> @color/colorPrimaryDark</item>
+        <item name="android:foregroundTint"> @color/colorPrimary</item>
+        <item name="android:textColor"> @android:color/white</item>
+
+    </style>
+    
+    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/editTextColorWhite</item>
+        <item name="android:textColor">@color/editTextColorWhite</item>
+        <item name="hintTextColor">@color/editTextColorWhite</item>
+        <item name="boxStrokeColor">@color/editTextColorWhite</item>
+        <item name="android:textSize">20sp</item>
+
+
+    </style>
+
+    <style name="EditTextBlack" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/editTextColorBlack</item>
+        <item name="android:textColor">@color/editTextColorBlack</item>
+        <item name="hintTextColor">@color/editTextColorBlack</item>
+        <item name="boxStrokeColor">@color/editTextColorBlack</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+
+
+
+</resources>

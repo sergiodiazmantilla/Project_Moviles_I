@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Ignorar build de la app
+/app/build/
+
+# Ignorar configuración específica de usuario en .idea
+/.idea/shelf/
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
