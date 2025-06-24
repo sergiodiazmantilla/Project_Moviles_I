@@ -29,3 +29,9 @@ ChesseAndGrillApp/
 ├── build.gradle
 └── README.md
 
+## Para visualizar los datos guardados:
+1. Ejecuta la app en el emulador.
+2. Ve a Device File Explorer (en Android Studio).
+3. Navega a:
+      /data/data/tu.paquete/databases/mi_base_datos.db
+4. Cópiala a tu PC y ábrela con DB Browser for SQLite o alguna herramienta similar.
